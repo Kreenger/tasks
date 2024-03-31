@@ -1,0 +1,54 @@
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 200px solid #f95959;
+  top: 22%;
+  left: 50%;
+  translate: -50%;
+  position: absolute;
+  box-shadow: 0 10px 0px #333;
+  z-index: 1;
+}
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.window {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  background-color: skyblue;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  translate: -50%;
+  z-index: 1;
+  border: 5px solid #333;
+}
+
+.foundation {
+  width: 600px;
+  height: 400px;
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50%;
+  z-index: -1;
+  border-radius: 2%;
+}
+
+.chimney {
+  width: 50px;
+  height: 150px;
+  background-color: #000;
+  position: absolute;
+  top: 24%;
+  left: 38%;
+  translate: -50%;
+  z-index: -1;
+}
